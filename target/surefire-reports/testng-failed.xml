@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [All Test Suite]">
+  <listeners>
+    <listener class-name="Utilities.CustomListener"/>
+    <listener class-name="Utilities.ExtentReport"/>
+  </listeners>
+  <test thread-count="5" verbose="0" name="C:/Users/kavitha/IdeaProjects/TestNGMavenProject(failed)">
+    <classes>
+      <class name="Pages.LoginPage">
+        <methods>
+          <include name="BrowserSetUp"/>
+          <include name="Signbutton"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Pages.LoginPage -->
+    </classes>
+  </test> <!-- C:/Users/kavitha/IdeaProjects/TestNGMavenProject(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->
