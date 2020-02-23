@@ -42,8 +42,8 @@ public class LoginPage  extends screenshot {
         JavascriptExecutor js = (JavascriptExecutor)driver;
         js.executeScript("arguments[0].click;",lgnbutton);
         System.out.println(" Email button clicked");
-        lgnbutton.sendKeys("kavitha@");
-        Assert.assertFalse(true);
+        lgnbutton.sendKeys("kavitha_abburi@yahoo.com");
+        //Assert.assertFalse(true);
         //log.error("Error occured");
         Thread.sleep(5000);
         driver.findElement(By.xpath("//i[@class='icon-user left']")).click();
